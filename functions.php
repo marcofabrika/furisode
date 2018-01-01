@@ -106,6 +106,7 @@ add_action( 'widgets_init', 'furisode_widgets_init' );
  */
 function furisode_scripts() {
 	wp_enqueue_style( 'furisode-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'furisode-style', get_stylesheet_uri() . '/css/main.css' );
 
 	wp_enqueue_script( 'furisode-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

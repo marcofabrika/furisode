@@ -22,28 +22,47 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'furisode' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'furisode' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
+	<header class="navigation" role="banner">
+	  <div class="navigation-wrapper">
+	    <a href="javascript:void(0)" class="logo">
+	      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo Image">
+	    </a>
+	    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+	    <nav role="navigation">
+	      <ul id="js-navigation-menu" class="navigation-menu show">
+	        <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+	        <li id="js-navigation-more" class="nav-link more"><a href="javascript:void(0)">More</a>
+	          <ul class="submenu">
+	            <li><a href="javascript:void(0)">Submenu Item</a></li>
+	            <li><a href="javascript:void(0)">Another Item</a></li>
+	            <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+	              <ul class="submenu">
+	                <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+	                <li><a href="javascript:void(0)">Another Item</a></li>
+	              </ul>
+	            </li>
+	            <li class="more"><a href="javascript:void(0)">Another submenu</a>
+	              <ul class="submenu">
+	                <li><a href="javascript:void(0)">Sub-submenu</a></li>
+	                <li><a href="javascript:void(0)">An Item</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </nav>
+	    <div class="navigation-tools">
+	      <div class="search-bar">
+	        <form role="search">
+	          <input type="search" placeholder="Enter Search" />
+	          <button type="submit">
+	            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+	          </button>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</header>
 	<div id="content" class="site-content">
