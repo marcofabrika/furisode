@@ -21,15 +21,15 @@
 	    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
 	  </div>
 	    <ul>
-	      <li><a href="javascript:void(0)">このブログについて</a></li>
-	      <li><a href="javascript:void(0)">お問い合わせ</a></li>
+	      <li><a href="javascript:void(0)">Marcofabrika</a></li>
+	      <li><a href="javascript:void(0)">Blog</a></li>
 	      <li><a href="javascript:void(0)">制作実績</a></li>
 	    </ul>
 
 	    <div class="footer-secondary-links">
 	      <ul>
-	        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-	        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+	        <li><a href="javascript:void(0)">お問い合わせ</a></li>
+	        <li><a href="javascript:void(0)">個人情報保護法</a></li>
 	      </ul>
 
 	      <ul class="footer-social">
@@ -38,9 +38,6 @@
 	          </a></li>
 	        <li><a href="javascript:void(0)">
 	          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
-	        </a></li>
-	        <li><a href="javascript:void(0)">
-	          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
 	        </a></li>
 	      </ul>
 	    </div>
