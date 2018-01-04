@@ -30,9 +30,9 @@
 	    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
 	    <nav role="navigation">
 	      <ul id="js-navigation-menu" class="navigation-menu show">
-	        <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
-	        <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
-	        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)">Marcofabrika</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)">Blog</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)">お問い合わせ</a></li>
 	        <li id="js-navigation-more" class="nav-link more"><a href="javascript:void(0)">More</a>
 	          <ul class="submenu">
 	            <li><a href="javascript:void(0)">Submenu Item</a></li>
