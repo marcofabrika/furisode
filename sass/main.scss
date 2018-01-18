@@ -31,6 +31,7 @@ $fs-big: 30px;
 
 a{
 	color: $default-color;
+	dext-decoration: none;
 	&:hover{
 		color: lighten(10%, $default-color);
 	}
