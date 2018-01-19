@@ -33,6 +33,7 @@ a{
 	color: $default-color;
 	dext-decoration: none;
 	&:hover{
+		text-color
 		color: lighten(10%, $default-color);
 	}
 }
