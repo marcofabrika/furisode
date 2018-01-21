@@ -34,6 +34,7 @@ a{
 	dext-decoration: none;
 	&:hover{
 		color: lighten(10%, $default-color);
+		text-decoration: none;
 	}
 }
 
