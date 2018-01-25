@@ -21,6 +21,7 @@ $light-gray: #f7f7f7;
 
 //link-color
 $default-color: $pink;
+$emphasized-color: lighiten(40%, $pink);
 
 //font-size
 $fs-small: 12px;
@@ -40,4 +41,5 @@ a{
 
 .emphasized{
 	background-color: lighiten(40%, $pink);
+
 }
